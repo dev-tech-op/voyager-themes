@@ -1,19 +1,19 @@
 
 {
-  "name": "voyager-themes",
+    "name": "sllize-voyager-themes",
   "description": "This hook will add support for Voyager front-end themes",
   "require": {
     "larapack/hooks": "~1.0"
   },
   "autoload": {
     "psr-4": {
-      "VoyagerThemes\\": "src/"
+        "SllizeVoyagerThemes\\": "src/"
     }
   },
   "extra": {
     "hook": {
       "providers": [
-        "VoyagerThemes\\VoyagerThemesServiceProvider"
+          "SllizeVoyagerThemes\\SllizeVoyagerThemesServiceProvider"
       ]
     }
   }
